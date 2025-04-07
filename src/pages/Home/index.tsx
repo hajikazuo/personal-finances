@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useState } from "react"
 import { useTheme } from "styled-components"
-import { getDashboard } from "../../services/request"
+import { getDashboard } from "../../services/requests"
 import { Body, BodyRow, Container, Header, HeaderFilter, HeaderInfo, HeaderSubtitle, HeaderTitle, InformationCard, InformationCardContent, InformationCardContentLabel, InformationCardContentValue, Loading, NewTransactionCard, NewTransactionCardLabel } from "./styles"
 import SelectInput from "../../components/SelectInput"
 import { ScaleLoader } from "react-spinners"

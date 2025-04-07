@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { TransactionStatus } from "../../../@types/Transaction"
 import { useTheme } from "styled-components"
-import { newTransaction } from "../../../services/request" 
+import { newTransaction } from "../../../services/requests" 
 import { Body, Container, Footer, Header, HeaderInfo, HeaderSubtitle, HeaderTitle, Loading } from "./styles"
 import Alert from "../../../components/Alert"
 import { ScaleLoader } from "react-spinners"
